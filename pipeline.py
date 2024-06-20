@@ -15,7 +15,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from models import KGReasoning
 from format_question import rel2text, load_info, hop_query_to_text, load_alignment_text
 
-login("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")
+# loging
+login()
 
 query_name_dict = {('e',('r',)): '1p', 
                     ('e', ('r', 'r')): '2p',
